@@ -7,7 +7,7 @@ class Euler8 extends FunSuite {
 
   test("maxProduct") {
    //assert(maxProduct(s.take(20).toList) === 0) 
-   assert(maxProduct(s.toList.map(_.toString.toInt))=== 1)
+   assert(maxProduct(s.toList.map(_.toString.toInt))=== BigInt(23514624000))
   }
 
 }
