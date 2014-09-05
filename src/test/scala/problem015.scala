@@ -1,4 +1,4 @@
-import euler.euler13._
+import euler.euler15._
 
 import org.scalatest.FunSuite
 
