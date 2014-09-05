@@ -1,23 +1,13 @@
 import euler.euler11._
 
-import org.scalatest.FunSuite 
+import org.scalatest.FunSuite
 
 class Euler11 extends FunSuite {
 
   test("top") {
-     assert(leftProd === 2)
-  }
-
-  test("down") {
-     assert(down === 1)
-  }
-
-  test("diagRight") {
-     assert(diagRight === 1)
-  }
-
-  test("diagLeft") {
-    assert(diagLeft === 1)
+    assert(numXY(0, 0)===8)
+    assert(productXY(0, 0)===1651104)
+    assert(sol === 70600674)
   }
 
 }
