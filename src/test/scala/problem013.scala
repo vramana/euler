@@ -4,7 +4,7 @@ import org.scalatest.FunSuite
 
 class Euler13 extends FunSuite {
 
-  test("") {
+  test("direct solution") {
     assert(number === "5537376230")
   }
 
