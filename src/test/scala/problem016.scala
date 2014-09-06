@@ -4,7 +4,7 @@ import org.scalatest.FunSuite
 
 class Euler16 extends FunSuite {
 
-  test("The RECURSIVE SOLUTION") {
+  test("Sum of Digits") {
     assert(a === 1366)
   }
 
