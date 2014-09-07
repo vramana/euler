@@ -2,10 +2,6 @@ package euler
 
 object euler17 {
 
-  // val ones = List(Map(1, "one"), Map(2, "two"), Map(3, "three"), Map(4, "four"), Map(5, "five"), Map(6, "six"), Map(7, "seven"), Map(8, "eight"), Map(9, "nine"))
-
-  // val tens = List(Map(10, "ten"), Map(20, "twenty"), Map(30, "thrity"), Map(40, "forty"), Map(50, "fifty"), Map(60, "sixty"), Map(70, "seventy"), Map(80, "eighty"), Map(90, "ninety"))
-
   val ones = Map(0-> "", 1 -> "One", 2 -> "Two", 3 -> "Three", 4 -> "Four", 5 -> "Five", 6 -> "Six", 7 -> "Seven", 8 -> "Eight", 9 -> "Nine")
 
   val tens = Map(2 -> "Twenty", 3-> "Thirty", 4-> "Forty", 5-> "Fifty" ,6-> "Sixty", 7-> "Seventy", 8-> "Eighty" , 9 -> "Ninety")
@@ -31,7 +27,5 @@ object euler17 {
       wordSum(n - 1, sum + (th + hun + tns).length)
     }
   }
-
-
 
 }
